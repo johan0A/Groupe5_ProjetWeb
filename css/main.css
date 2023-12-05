@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 #main-content-grid {
     display: grid;
     grid-template-rows: 10% 1fr 10%;
@@ -17,9 +23,29 @@
 
 #nav-bar-flex-container{
     display: flex;
-    gap: 10px;
 }
 
 #logo-isen-nante {
     max-width: 100px;
+}
+
+.nav-bar-button {
+    display: block !important;
+    height: 100%;
+    padding: 20px 10px 20px 10px;
+    background-color: #00000000;
+}
+
+.nav-bar-button:hover {
+    transition-duration: 0.2s;
+    background-color: #a8a8a8;
+}
+
+#footer{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    background-color: #E30613;
 }
