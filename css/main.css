@@ -10,9 +10,11 @@ body {
     grid-template-columns: 15% 1fr 15%;
 }
 
-#nav-bar-container{
-    grid-row: 1;
-    grid-column: 2;
+#header{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
     background-color: #E9E9E9;
 }
 
@@ -21,24 +23,30 @@ body {
     grid-column: 2;
 }
 
+#nav-bar-container{
+    grid-row: 1;
+    grid-column: 2;
+    white-space: nowrap;
+}
+
 #nav-bar-flex-container{
     display: flex;
 }
 
-#logo-isen-nante {
-    max-width: 100px;
-}
-
 .nav-bar-button {
-    display: block !important;
-    height: 100%;
-    padding: 20px 10px 20px 10px;
-    background-color: #00000000;
+    line-height: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
 }
 
 .nav-bar-button:hover {
     transition-duration: 0.2s;
     background-color: #a8a8a8;
+}
+
+#logo-isen-nante {
+    max-width: 150px;
 }
 
 #footer{
