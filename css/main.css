@@ -7,6 +7,7 @@
 #nav-bar-container{
     grid-row: 1;
     grid-column: 2;
+    background-color: #E9E9E9;
 }
 
 #content-container{
