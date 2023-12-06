@@ -57,3 +57,7 @@ body {
     text-align: center;
     background-color: #E30613;
 }
+
+li{
+    list-style-type: none;
+}
