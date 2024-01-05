@@ -61,3 +61,23 @@ body {
 li{
     list-style-type: none;
 }
+
+#projet-container-grid{
+    display: grid;
+    grid-template-rows: 10% 1fr;
+    grid-template-columns: 3em;
+}
+
+#projet-flex-container{
+    display: flex;
+}
+
+#txt-projet_container{
+    grid-row: 1;
+    grid-column: 0;
+}
+
+#images-projet-container{
+    grid-row: 0;
+    grid-column: 0;
+}
