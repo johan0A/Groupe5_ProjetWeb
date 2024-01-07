@@ -67,3 +67,7 @@ li{
     grid-template-rows: 10% 1fr;
     grid-template-columns: 3em;
 }
+
+#flex-partenaire{
+    display: flex;
+}
