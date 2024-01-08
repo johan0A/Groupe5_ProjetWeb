@@ -18,7 +18,7 @@ body {
 #main-content-grid {
     display: grid;
     grid-template-rows: 10% 1fr 10%;
-    grid-template-columns: 15% 1fr 15%;
+    grid-template-columns: auto 0.75fr auto;
 }
 
 #header {
