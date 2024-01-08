@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper {
+    flex: 1;
 }
 
 #main-content-grid {
@@ -10,7 +21,7 @@ body {
     grid-template-columns: 15% 1fr 15%;
 }
 
-#header{
+#header {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
@@ -18,18 +29,18 @@ body {
     background-color: #E9E9E9;
 }
 
-#content-container{
+#content-container {
     grid-row: 2;
     grid-column: 2;
 }
 
-#nav-bar-container{
+#nav-bar-container {
     grid-row: 1;
     grid-column: 2;
     white-space: nowrap;
 }
 
-#nav-bar-flex-container{
+#nav-bar-flex-container {
     display: flex;
 }
 
@@ -38,18 +49,24 @@ body {
     text-align: center;
     padding: 10px;
     background-color: transparent;
+    color: black;
+    text-decoration: none;
 }
 
 .nav-bar-button:hover {
     transition-duration: 0.2s;
     background-color: #a8a8a8;
+    color: white; 
+    text-decoration: none;
 }
+
 
 #logo-isen-nante {
     max-width: 150px;
 }
 
-#footer{
+#footer {
+    height: 150px;
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 1;
@@ -58,16 +75,6 @@ body {
     background-color: #E30613;
 }
 
-li{
+li {
     list-style-type: none;
-}
-
-#projet-container-grid{
-    display: grid;
-    grid-template-rows: 10% 1fr;
-    grid-template-columns: 3em;
-}
-
-#flex-partenaire{
-    display: flex;
 }
